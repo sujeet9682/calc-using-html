@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+        #firstbox{
+            display: flex;
+    grid-column: span 4;
+    border: none;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 320px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+        inset 5px 5px 12px rgb(0, 0, 0,.16);
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+    text-align: end;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    padding: 20px;
+        }
+        #secondbox{ display: flex;
+    grid-column: span 4;
+    border: none;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 320px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+        inset 5px 5px 12px rgb(0, 0, 0,.16);
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+    text-align: end;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    padding: 20px;
+        }
+        #res{ display: flex;
+    grid-column: span 4;
+    border: none;
+    height: 20px;
+    border-radius: 5px;
+    text-align: center;
+    width: 320px;
+    background-color: #ecf0f3;
+    box-shadow: inset -5px -5px 12px #ffffff,
+        inset 5px 5px 12px rgb(0, 0, 0,.16);
+    color: rgb(70, 70, 70);
+    font-size: 20px;
+    text-align: end;
+    margin: auto;
+    margin-top: 6px;
+    margin-bottom: 5px;
+    padding: 20px;
+        } */
+
+        html{
+            background-color: burlywood;
+            margin: auto;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        .btn{
+background-color: #efff00d6;
+        }
+    </style>
+</head>
+
+<body>
+    <button class="btn" disabled="disabled">Enter First number</button>
+    <input type="number" name="first" id="firstbox" step="any" />
+    <br>
+    <button class="btn" disabled="disabled">Choose Operator</button>
+    <select name="" id="opr">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <br>
+    <button class="btn" disabled="disabled">Enter second number</button>
+    <input type="number" name="second" id="secondbox" step="any" />
+    <br>
+    <br>
+    <button onclick="cal()">calculate</button>
+    <br>
+    <input type="number" name="" id="res" readonly="" />
+
+    </body>
+<script src="script5.js"></script>
+
+</html>
